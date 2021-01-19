@@ -1,0 +1,45 @@
+body {
+    background-image: url(img/backgrounds.jpg);
+    overflow: hidden;
+}
+audio {
+    opacity: 20%;
+}
+main {
+    position: absolute;
+	width: 18em;
+	height: 50em;
+    bottom: 0;
+    left: 50%;
+	margin-left: -9em;
+    font-size: 350%;
+    color: yellow;
+	font-weight: bold;
+	text-align: center;
+	overflow: hidden;
+	transform-origin: 50% 95%;
+	transform: perspective(400px) rotateX(25deg);
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+h1 {
+    color: rgb(4, 63, 173);
+}
+p {
+    text-align: justify;
+}
+.container {
+	position: absolute;
+    top: 100%;
+	animation: container 60s linear 3s;
+}
+@keyframes container {
+	0% { 
+        top: 100%;
+    }
+	100% {
+        top: -170%;
+    }
+}
